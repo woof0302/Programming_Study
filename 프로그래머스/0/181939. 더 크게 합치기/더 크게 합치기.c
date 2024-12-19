@@ -10,7 +10,7 @@ int get_Max(int a, int b)
 int concatenate(int a, int b)
 {
     int power = 1;
-    while(b / power > 0)
+    while(b / power > 0)  // b / power 가 0보다 크다는 것은 아직 b가 power보다 크거나 같아서 나눌 수 있다는 뜻이다.
     {
         power *= 10;
     }
